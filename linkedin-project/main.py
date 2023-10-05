@@ -20,7 +20,7 @@ email = driver.find_element(By.NAME, "email-address")
 password = driver.find_element(By.NAME, "password")
 
 email.send_keys("skyflye@inwind.it")
-password.send_keys("Espediente1!")
+password.send_keys("xxxxxx")
 
 agree_and_join = driver.find_element(By.ID, value="join-form-submit")
 agree_and_join.click()
